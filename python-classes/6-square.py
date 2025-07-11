@@ -15,7 +15,7 @@ class Square:
                           the horizontal and vertical offset for printing.
     """
 
-    def __init__(self, size=0, position=(0, 0)):
+    def __init__(self, size = 0, position = (0, 0)):
         self.size = size        # Will use setter for validation
         self.position = position  # Will use setter for validation
 
